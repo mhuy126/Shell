@@ -1,11 +1,6 @@
-openapi: "3.0.0"
+swagger: 2.0
 info:
   title: PoC API
   version: "1.0"
-  description: |
-    Normal description text.
-
-    <!-- HTML injection test -->
-    <h1>HTML Injection from R1sky</h1>
-    <p>This page is vulnerable to DOM HTML Injection</p>
+  description: 'Normal description text.<h1>HTML Injection from R1sky</h1><p>This page is vulnerable to DOM HTML Injection</p>'
 paths: {}
