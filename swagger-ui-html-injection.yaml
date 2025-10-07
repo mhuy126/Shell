@@ -7,5 +7,5 @@ info:
 
     <!-- HTML injection test -->
     <h1>HTML Injection from R1sky</h1>
-    <img src=x onerror="alert('POC: XSS via Swagger description')">
+    <p>This page is vulnerable to DOM HTML Injection</p>
 paths: {}
