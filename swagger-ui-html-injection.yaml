@@ -1,0 +1,11 @@
+openapi: "3.0.0"
+info:
+  title: PoC API
+  version: "1.0"
+  description: |
+    Normal description text.
+
+    <!-- HTML injection test -->
+    <h1>HTML Injection from R1sky</h1>
+    <img src=x onerror="alert('POC: XSS via Swagger description')">
+paths: {}
